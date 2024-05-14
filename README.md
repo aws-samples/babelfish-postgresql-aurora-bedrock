@@ -8,7 +8,7 @@ Before running the notebook, make sure you have the following:
 2. Set up an [Amazon Elastic Compute Cloud](http://aws.amazon.com/ec2) (Amazon EC2) instance in a public subnet, which will act as a front end and can access for database. For instructions, refer to [Tutorial: Get started with Amazon EC2 Linux instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html).
 3. Create an [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) database secret for the application to access Aurora. For instructions, see [Create an AWS Secrets Manager database secret] (https://docs.aws.amazon.com/secretsmanager/latest/userguide/create_database_secret.html).
 4. The EC2 instance will need access to the Aurora cluster and Secrets Manager. Refer to [Creating a role to delegate permissions to an AWS service](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html) for the steps to create an AWS Identity and Access Management (IAM) role and attach specific policies granting access to your Aurora cluster and Secrets Manager.
-5. [Enable Amazon Bedrock access](https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html). You may need to request access to use specific foundational models in Amazon Bedrock. In this blog post, we used Anthropic Claude 3 Haiku and Amazon Titan Embeddings G1 – Text.
+5. [Enable Amazon Bedrock access](https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html). You may need to request access to use specific foundational models in Amazon Bedrock. In this blog post, we used Anthropic Claude 2 and Amazon Titan Embeddings G1 – Text.
 
 ## Architecture
 
