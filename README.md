@@ -18,7 +18,7 @@ Before running the notebook, make sure you have the following:
 
 The application follows these steps to provide responses to your questions:
 
-1. **Hotel data initialization**: The script `db-init.sql` consists the hotel dataset, and reviews. We use GUI-based client tool `SSMS` to load data into Babelfish for Amazon Aurora PostgreSQL cluster. It will create a new schema `hotel` and set of tables - `hotels` and `reviews`.
+1. **Hotel data initialization**: The script 'db-init.sql' consists the hotel dataset, and reviews. We use GUI-based client tool `SSMS` to load data into Babelfish for Amazon Aurora PostgreSQL cluster. It will create a new schema `hotel` and set of tables - `hotels` and `reviews`.
 
 2. **Embedding**: The function `aws_bedrock.invoke_model_get_embeddings` is used to generate embeddings from hotel data that already exists in your database. The generated embeddings are stored in `hotel.hotel_embedding` vector column.
 
