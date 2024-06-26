@@ -12,7 +12,7 @@ Before running the notebook, make sure you have the following:
 
 ## Architecture
 
-![Architecture](static/ARCH.png)
+![Architecture](static/Arch.jpg)
 
 ## How It Works
 
